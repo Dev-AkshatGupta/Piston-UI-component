@@ -1,4 +1,17 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Oswald&family=Pacifico&display=swap');
+:root {
+    --icons-orange:#fab75f;
+    --pure-black: #212529;
+    --pure-white:#ffffff;
+    --error-red:#d90429;
+    --error-red-dark:#9d0208;
+    --success-green:#2b9348;
+    --success-green-dark:#386641;
+    --warn-yellow:#fcca46;
+    --495057: #495057;
+    --6C757D: #6C757D;
+    --DEE2E6: #DEE2E6;
+}
 *,
 *::after,
 *::before{
