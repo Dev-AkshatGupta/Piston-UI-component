@@ -1,0 +1,26 @@
+
+.avatar{
+    width: 4rem;
+    height: 4rem;
+    /* border: solid; */
+    /* border-radius: 50%; */
+}
+.avatar>img{
+    border-radius: 50%;
+}
+.avatar.sm{
+    width: 3rem;
+    height: 3rem;
+}
+.avatar.med{
+    width: 5rem;
+    height: 5rem;
+}
+
+.avatar.larg{
+    width: 9rem;
+    height: 9rem;
+}
+.avatar.square>img{
+    border-radius: 10%;
+}
