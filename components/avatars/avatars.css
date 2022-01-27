@@ -3,22 +3,22 @@
     width: 4rem;
     height: 4rem;
 }
-.avatar>img{
+.avatar > img{
     border-radius: 50%;
 }
 .avatar.sm{
     width: 3rem;
     height: 3rem;
 }
-.avatar.med{
+.avatar.md{
     width: 5rem;
     height: 5rem;
 }
 
-.avatar.larg{
+.avatar.lg{
     width: 9rem;
     height: 9rem;
 }
-.avatar.square>img{
+.avatar.square > img{
     border-radius: 10%;
 }
