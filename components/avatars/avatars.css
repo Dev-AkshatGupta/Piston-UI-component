@@ -2,8 +2,7 @@
 .avatar{
     width: 4rem;
     height: 4rem;
-    /* border: solid; */
-    /* border-radius: 50%; */
+ 
 }
 .avatar>img{
     border-radius: 50%;
