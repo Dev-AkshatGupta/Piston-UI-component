@@ -81,3 +81,12 @@ button{
 .smooth-square-radius{
     border-radius: 4px;
 }
+.sub-text{
+    font-size:1.6rem;
+    color: var(--6C757D);
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
