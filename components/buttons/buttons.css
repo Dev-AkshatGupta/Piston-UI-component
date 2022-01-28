@@ -1,6 +1,5 @@
 /* ---default button */
 .btn {
-    border: none;
     background-color: var(--ICONS-ORANGE);
     color: var(--PURE-WHITE);
     padding: 1.5rem 2rem;
@@ -52,7 +51,6 @@
     color: var(--ICONS-ORANGE);
     border: solid var(--ICONS-ORANGE) 2px;
     background-color: var(--PURE-WHITE);
-    border-radius: 4px;
     padding: 1rem 2rem;
 }
 
@@ -66,7 +64,6 @@
     color: var(--PURE-BLACK);
     border: solid var(--PURE-BLACK) 2px;
     background-color: var(--PURE-WHITE);
-    border-radius: 4px;
     padding: 1rem 2rem;
 }
 
@@ -80,7 +77,6 @@
     color: var(--SUCCESS-GREEN);
     border: solid var(--SUCCESS-GREEN) 2px;
     background-color: var(--PURE-WHITE);
-    border-radius: 4px;
     padding: 1rem 2rem;
 }
 
@@ -94,7 +90,6 @@
     color: var(--ERROR-RED);
     border: solid var(--ERROR-RED) 2px;
     background-color: var(--PURE-WHITE);
-    border-radius: 4px;
     padding: 1rem 2rem;
 }
 
