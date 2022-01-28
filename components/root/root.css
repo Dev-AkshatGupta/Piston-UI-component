@@ -71,10 +71,14 @@ button{
     border: none;
 }
 
+
+i{
+    cursor: pointer;
+}
+/* General utility classes */
 .spacing-dividing{
     margin: 5rem;
 }
-/* General utility classes */
 .circle-border-radius{
     border-radius: 50%;
 }
@@ -89,7 +93,4 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-i{
-    cursor: pointer;
 }
