@@ -1,38 +1,45 @@
 @import url(./root.css);
 
-.alert{
-        padding: 1rem;
+.alert {
+    padding: 1rem;
     font-size: 1.5rem;
     background-color: var(--PURE-BLACK);
     color: var(--PURE-WHITE);
     border-radius: 4px;
     width: 50vw;
-    word-spacing:6px;
+    word-spacing: 6px;
 }
-.alert.error{
-background-color: var(--ERROR-RED);
+
+.alert.error {
+    background-color: var(--ERROR-RED);
 }
-.alert.success{
+
+.alert.success {
     background-color: var(--SUCCESS-GREEN);
 }
-.alert.warning{
-background-color: var(--WARN-YELLOW);
+
+.alert.warning {
+    background-color: var(--WARN-YELLOW);
 }
-.alert.outline{
-    color:var(--PURE-BLACK);
+
+.alert.outline {
+    color: var(--PURE-BLACK);
     background-color: var(--PURE-WHITE);
     outline: var(--PURE-BLACK) solid;
-    font-weight:500;
+    font-weight: 500;
 }
-.alert.error.outline{
-    color:var(--ERROR-RED);
+
+.alert.error.outline {
+    color: var(--ERROR-RED);
     outline: var(--ERROR-RED) solid;
 }
-.alert.success.outline{
-    color:var(--SUCCESS-GREEN);
+
+.alert.success.outline {
+    color: var(--SUCCESS-GREEN);
     outline: var(--SUCCESS-GREEN) solid;
 }
-.alert.warning.outline{
-    color:var(--WARN-YELLOW);
+
+.alert.warning.outline {
+    color: var(--WARN-YELLOW);
     outline: var(--WARN-YELLOW) solid;
 }
