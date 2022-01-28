@@ -7,9 +7,9 @@
     z-index: 1;
 }
 .dot{
-    width:15px;
+    width:1.5rem;
     border-radius: 50%;
-    height:15px;
+    height:1.5rem;
     right: 0px;
     bottom: 0px;
     border: 2px solid var(--PURE-WHITE);
@@ -22,11 +22,11 @@
 }
 .badge{
     font-size: 2rem;
-    width:30px;
+    width:3rem;
     border-radius: 50%;
-    height:30px;
-    right: -8px;
-    top: -5px;
+    height:3rem;
+    right: -.8rem;
+    top: -.5rem;
     text-align: center;
     border: 2px solid var(--PURE-WHITE);
     color: var(--PURE-WHITE);
