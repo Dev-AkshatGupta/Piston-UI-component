@@ -71,11 +71,25 @@ button{
     border: none;
 }
 
-
+.spacing-dividing{
+    margin: 5rem;
+}
 /* General utility classes */
 .circle-border-radius{
     border-radius: 50%;
 }
 .smooth-square-radius{
     border-radius: 4px;
+}
+.sub-text{
+    font-size:1.6rem;
+    color: var(--6C757D);
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+i{
+    cursor: pointer;
 }
