@@ -71,7 +71,9 @@ button{
     border: none;
 }
 
-
+.spacing-dividing{
+    margin: 5rem;
+}
 /* General utility classes */
 .circle-border-radius{
     border-radius: 50%;
