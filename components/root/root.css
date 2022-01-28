@@ -67,3 +67,15 @@ h5 {
 h6 {
     font-size: 1.072rem;
 }
+button{
+    border: none;
+}
+
+
+/* General utility classes */
+.circle-border-radius{
+    border-radius: 50%;
+}
+.smooth-square-radius{
+    border-radius: 4px;
+}
