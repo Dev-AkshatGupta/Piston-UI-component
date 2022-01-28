@@ -48,7 +48,7 @@
 }
 
 /* BUTTON OUTLINE */
-.btn.outline {
+.btn-outline {
     color: var(--ICONS-ORANGE);
     border: solid var(--ICONS-ORANGE) 2px;
     background-color: var(--PURE-WHITE);
@@ -56,13 +56,13 @@
     padding: 1rem 2rem;
 }
 
-.btn.outline:hover,
-.btn.outline:focus {
+.btn-outline:hover,
+.btn-outline:focus {
     background-color: var(--ICONS-ORANGE);
     color: var(--PURE-WHITE);
 }
 
-.btn.outline-pri {
+.btn-outline-pri {
     color: var(--PURE-BLACK);
     border: solid var(--PURE-BLACK) 2px;
     background-color: var(--PURE-WHITE);
@@ -70,13 +70,13 @@
     padding: 1rem 2rem;
 }
 
-.btn.outline-pri:hover,
-.btn.outline-pri:focus {
+.btn-outline-pri:hover,
+.btn-outline-pri:focus {
     background-color: var(--PURE-BLACK);
     color: var(--PURE-WHITE);
 }
 
-.btn.outline-success {
+.btn-outline-success {
     color: var(--SUCCESS-GREEN);
     border: solid var(--SUCCESS-GREEN) 2px;
     background-color: var(--PURE-WHITE);
@@ -84,13 +84,13 @@
     padding: 1rem 2rem;
 }
 
-.btn.outline-success:hover,
-.btn.outline-success:focus {
+.btn-outline-success:hover,
+.btn-outline-success:focus {
     background-color: var(--SUCCESS-GREEN);
     color: var(--PURE-WHITE);
 }
 
-.btn.outline-error {
+.btn-outline-error {
     color: var(--ERROR-RED);
     border: solid var(--ERROR-RED) 2px;
     background-color: var(--PURE-WHITE);
@@ -98,14 +98,14 @@
     padding: 1rem 2rem;
 }
 
-.btn.outline-error:hover,
-.btn.outline-error:focus {
+.btn-outline-error:hover,
+.btn-outline-error:focus {
     background-color: var(--ERROR-RED);
     color: var(--PURE-WHITE);
 }
 
 /* ICON'S BUTTON */
-.btn-icon.lrg {
+.btn-icon-lrg {
     padding: 1.5rem;
     font-size: 4rem;
     border: none;
@@ -114,7 +114,7 @@
     background-color: var(--PURE-WHITE);
 }
 
-.btn-icon.med {
+.btn-icon-med {
     padding: 1.5rem;
     font-size: 3rem;
     border: none;
@@ -123,7 +123,7 @@
     background-color: var(--PURE-WHITE);
 }
 
-.btn-icon.small {
+.btn-icon-sml {
     padding: 1.5rem;
     font-size: 1.5rem;
     border: none;
@@ -132,7 +132,7 @@
     background-color: var(--PURE-WHITE);
 }
 
-.btn-icon:hover {
+.btn-icon-sml:hover,.btn-icon-med:hover,.btn-icon-lrg:hover {
     color: var(--PURE-BLACK);
 }
 
@@ -144,9 +144,6 @@
     right: 5rem;
 }
 
-.floating.active {
-    display: block;
-}
 
 /* LINK BUTTONS */
 
