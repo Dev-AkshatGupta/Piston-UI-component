@@ -31,7 +31,7 @@ body {
 }
 
 .card__image-container>img {
-    border-radius: px4px 4px 0 0;
+    border-radius: 4px 4px 4px 0 0;
 }
 
 .card-element__main-text {
@@ -56,6 +56,7 @@ body {
     border: none;
     border-radius: 10%;
 }
+
 /* vertical-card */
 .card-vertical {
     background-color: var(--PURE-WHITE);
@@ -69,7 +70,6 @@ body {
 
 .card-vertical-img-cont {
     width: 35rem;
-    height: 19.6;
 }
 
 .card-vertical-text {
@@ -129,18 +129,21 @@ body {
     margin-bottom: 0;
     color: var(--PURE-WHITE);
 }
-.image-overlay-badge{
+
+.image-overlay-badge {
     color: var(--PURE-WHITE);
-    background:var(--ICONS-ORANGE);
+    background: var(--ICONS-ORANGE);
     padding: .3rem .6rem;
     margin-right: 18rem;
 }
-.bottom-top-left-corner-text{
+
+.bottom-top-left-corner-text {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.bottom-top-left-corner-text>h1{
+
+.bottom-top-left-corner-text>h1 {
     color: var(--PURE-WHITE);
     margin-bottom: 0;
 }
