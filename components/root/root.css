@@ -67,30 +67,47 @@ h5 {
 h6 {
     font-size: 1.072rem;
 }
-button{
+
+button {
     border: none;
 }
 
 
-i{
+i {
     cursor: pointer;
 }
+
 /* General utility classes */
-.spacing-dividing{
+.spacing-dividing {
     margin: 5rem;
 }
-.circle-border-radius{
+
+.circle-border-radius {
     border-radius: 50%;
 }
-.smooth-square-radius{
+
+.smooth-square-radius {
     border-radius: 4px;
 }
-.sub-text{
-    font-size:1.6rem;
+
+.sub-text {
+    font-size: 1.6rem;
     color: var(--6C757D);
 }
-.flex-center{
+
+.flex-center {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.flex-column-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
 }
