@@ -1,0 +1,27 @@
+/* general classes */
+.text-shadow{
+    text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+
+}
+.highlight-orange-text{
+color: var(--ICONS-ORANGE);
+}
+
+.component-navigation {
+    background-color: #000000;
+    background-image: linear-gradient(315deg, #000000 0%, #ffffff 74%);
+    height: 13rem;
+    display: flex;
+    align-items: flex-end;
+    justify-items: flex-start;
+   
+}
+.navigation-pri-part{
+    display: flex;
+    
+}
+.navigation-pri-part>h1{
+    font-size: 8rem;
+    margin:0;
+    align-self: flex-end;
+}
