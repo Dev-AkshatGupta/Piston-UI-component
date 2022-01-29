@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Oswald&family=Pacifico&display=swap');
 
+/* resetting Html */
+
 :root {
     --ICONS-ORANGE: #fab75f;
     --PURE-BLACK: #212529;
