@@ -1,0 +1,36 @@
+.toast-div{
+    position: relative;
+}
+.toast{
+    background-color: var(--PURE-BLACK);
+    border-radius: 5px;
+    width:50vw;
+    color: var(--PURE-WHITE);
+    font-size:1rem;
+    padding:.5rem ;
+    position:fixed;
+    z-index: 1;
+    bottom: 4rem;
+    left: 33rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    display: none;
+}
+.toast-text{
+    background-color: var(--PURE-BLACK);
+    font-size: 1.6rem;
+}
+.toast-text-buttons{
+    background-color: var(--PURE-BLACK);
+    color: var(--PURE-WHITE);
+    font-size: 1.3rem;
+    border-radius: 15px;
+    padding: .6rem;
+}
+.toast-text-buttons.highlight{
+    color: var(--red-selecting-color);
+ }
+.toast-text-buttons:hover{
+background-color: var(--div-background);
+}

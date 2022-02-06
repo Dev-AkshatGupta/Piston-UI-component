@@ -1,0 +1,16 @@
+.modal{
+display: none;
+align-self: center;
+position: fixed;
+top: 50%;
+left: 50%;
+margin-top: -9rem;
+margin-left: -17rem;
+z-index: 1;
+}
+.modal-button {
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 1.6rem;
+    border: none;
+}
