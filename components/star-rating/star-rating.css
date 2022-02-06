@@ -1,21 +1,6 @@
 .star-cont {
     display: flex;
+    font-size: 3rem;
+    color: var(--WARN-YELLOW);
 
-}
-
-.star-cont>input {
-    display: none;
-}
-
-.star-cont>label {
-    display: block;
-    cursor: pointer;
-    width: 3rem;
-    background-color: blueviolet;
-    height: 50px;
-}
-
-.star-cont>label:before {
-    content: '\f005';
-    font-family: fontAwesome;
 }
