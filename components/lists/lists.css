@@ -1,0 +1,11 @@
+.list{
+    font-size: 1.6rem;
+
+}
+.list>li{
+    color: var(--6C757D);
+}
+/* stacked list styles */
+.list-stacked>li{
+list-style: none;
+}
