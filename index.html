@@ -2,17 +2,58 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-    <title>Piston-UI</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <title>Piston-UI</title>
 </head>
 
 <body>
+  <!-- modal design -->
+  <button class="btn btn-error" id="open-modal-btn">OPEN MODAL</button>
+  <div class="card-vertical smooth-square-radius card-shadow  modal"id="modal-open">
+    <div class="card-vertical-upper-text">
+      <h1 class="card-heading">MODAL</h1>
+      <p class="sub-text">some text</p>
+      <div class="card-element__bottom">
+        <button class="modal-button btn btn-pri " >RANDOM</button>
+        <button class="modal-button btn btn-pri" id="close-modal">CLOSE</button>
+        
+      </div>
+    </div>
+  </div>
+  <!-- TOast DEsign -->
+<button class="btn" id="btn-open-toast">OPEN TOAST</button>
+  <div class="toast" id="toast-below">
+    <p class="toast-text ">
+        You can signify any error you want to add in it
+    </p>
+    <button class="toast-text-buttons highlight">
+        Retry
+    </button>
+    <button class="toast-text-buttons icon" id="btn-close-toast"><i class="fas fa-times"></i>
+    </button>
 
-  </body>
+</div>
+
+<!-- navigation bar simple js -->
+<nav class="nav-hero">
+  <div class="left-nav-content">
+      <button><i class="fa fa-bars" aria-hidden="true"></i></button>
+      <span>Rajasthan,Bharat</span>
+  </div>
+
+  <div class="right-nav-content ">
+      <button class="right-nav-content-button"><i class="fa fa-download" aria-hidden="true"></i></button>
+      <button class="right-nav-content-button"><i class="fa fa-print" aria-hidden="true"></i></button>
+      <button class="right-nav-content-button"><i class="fas fa-bookmark"></i></button>
+  </div>
+</nav>
+  <script src="./components/modal/modal.js"></script>
+  <script src="./components//toast/toast.js"></script>
+</body>
 
 </html>
