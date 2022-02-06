@@ -1,0 +1,6 @@
+.star-cont {
+    display: flex;
+    font-size: 3rem;
+    color: var(--WARN-YELLOW);
+
+}

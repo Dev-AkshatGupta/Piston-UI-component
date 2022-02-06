@@ -1,0 +1,20 @@
+.grid-columns{
+    display: grid;
+    grid-auto-flow:column;
+    font-size: 1.6rem;
+}
+.grid-columns>div{
+border: solid;
+}
+.grid-3__row{
+    font-size: 1.6rem;
+    display: grid;
+    grid-auto-flow: columns; 
+}
+.grid-3__row>div{
+    border: solid;
+   
+}
+.grid-3__row>.row-1{
+grid-column: 1/3;
+}
