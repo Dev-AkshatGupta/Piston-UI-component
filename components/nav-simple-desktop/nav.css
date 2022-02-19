@@ -20,7 +20,7 @@
     color: var(--PURE-WHITE);
 }
 .nav-hero button:hover{
-    background-color: var(--6C757D);
+    background-color: var(--LIGHT-GREY);
     border-radius: 50%;
     
 }

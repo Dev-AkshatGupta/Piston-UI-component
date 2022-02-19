@@ -11,9 +11,9 @@
     --SUCCESS-GREEN: #2b9348;
     --SUCCESS-GREEN-DARK: #386641;
     --WARN-YELLOW: #fcca46;
-    --495057: #495057;
-    --6C757D: #6C757D;
-    --DEE2E6: #DEE2E6;
+    --DARK-GREY: #495057;
+    --LIGHT-GREY: #6C757D;
+    --WHITE-SMOKE: #DEE2E6;
 }
 
 *,
@@ -97,7 +97,7 @@ a{
 
 .sub-text {
     font-size: 1.6rem;
-    color: var(--6C757D);
+    color: var(--LIGHT-GREY);
 }
 
 .flex-center {

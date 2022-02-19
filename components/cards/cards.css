@@ -1,6 +1,6 @@
 
 .card-shadow {
-    box-shadow: 0 4px 8px 0 var(--495057), 0 6px 20px 0 var(--6C757D);
+    box-shadow: 0 4px 8px 0 var(--DARK-GREY), 0 6px 20px 0 var(--LIGHT-GREY);
 }
 
 .card-element-horizontal {
@@ -10,7 +10,7 @@
 }
 
 .card-element-horizontal>br {
-    color: var(--DEE2E6);
+    color: var(--WHITE-SMOKE);
 }
 
 /* card element main content */
@@ -39,7 +39,7 @@
 .card-element__bottom {
     display: flex;
     justify-content: space-evenly;
-    border-top: var(--6C757D) solid 1px;
+    border-top: var(--LIGHT-GREY) solid 1px;
 }
 
 

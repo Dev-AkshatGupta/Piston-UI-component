@@ -10,18 +10,18 @@
 
 /* PRIMARY BUTTON */
 .btn-pri {
-    background-color: var(--495057);
+    background-color: var(--DARK-GREY);
     color: var(--PURE-WHITE);
 }
 
 .btn-pri:hover {
-    background: var(--6C757D);
+    background: var(--LIGHT-GREY);
 }
 
 /* SECONDARY BUTTON */
 .btn-sec {
-    background-color: var(--DEE2E6);
-    color: var(--495057);
+    background-color: var(--WHITE-SMOKE);
+    color: var(--DARK-GREY);
 }
 
 .btn-sec:hover {
@@ -104,7 +104,7 @@
     padding: 1.5rem;
     font-size: 4rem;
     border: none;
-    color: var(--6C757D);
+    color: var(--LIGHT-GREY);
     transition: all .5s ease-in-out;
     background-color: var(--PURE-WHITE);
 }
@@ -113,7 +113,7 @@
     padding: 1.5rem;
     font-size: 3rem;
     border: none;
-    color: var(--6C757D);
+    color: var(--LIGHT-GREY);
     transition: all .5s ease-in-out;
     background-color: var(--PURE-WHITE);
 }
@@ -122,7 +122,7 @@
     padding: 1.5rem;
     font-size: 1.5rem;
     border: none;
-    color: var(--6C757D);
+    color: var(--LIGHT-GREY);
     transition: all .5s ease-in-out;
     background-color: var(--PURE-WHITE);
 }

@@ -3,7 +3,7 @@
 
 }
 .list>li{
-    color: var(--6C757D);
+    color: var(--LIGHT-GREY);
 }
 /* stacked list styles */
 .list-stacked>li{

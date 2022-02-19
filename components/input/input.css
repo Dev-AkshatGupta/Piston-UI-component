@@ -1,5 +1,5 @@
 .form {
-    border: solid var(--6C757D);
+    border: solid var(--LIGHT-GREY);
     border-radius: 1rem;
     max-width: 30rem;
     padding: 2rem;
@@ -37,7 +37,7 @@
 }
 
 .text-area>textarea {
-    color: var(--6C757D);
+    color: var(--LIGHT-GREY);
     border: var(--ICONS-ORANGE) solid 1.5px;
 }
 
