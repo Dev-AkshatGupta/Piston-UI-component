@@ -9,3 +9,27 @@
 .list-stacked>li{
 list-style: none;
 }
+
+
+/* Inline styles updated */
+.tabs-div-ul{
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding:0;
+    margin: 0;
+}
+.tabs-div-ul-li{
+    list-style: none;
+    cursor: pointer;
+    padding: .5rem;
+}
+.tabs-div-ul-li:hover{
+    color: var(--PURE-BLACK);
+    border-bottom: var(--PURE-BLACK) solid 1px;
+    background-color: var(--WHITE-SMOKE);
+}
+.tabs-div-ul-li+.tabs-div-ul-li{
+    padding-left: .6rem;  
+}
